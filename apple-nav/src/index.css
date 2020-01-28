@@ -13,7 +13,7 @@ code {
 }
 
 
-/* //My styles */
+/* //My styles for navwrapper */
 
 
 ul {
@@ -36,4 +36,15 @@ ul {
 
   list-style-type: none;
   color: white;
+}
+
+
+/* //subnav page */
+
+.subNavNav {
+  border: 2px black solid;
+  border-radius: 3px;
+  background: #414345;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

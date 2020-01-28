@@ -6,6 +6,7 @@ import SubNav from "./components/SubNav"
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
    <nav>
@@ -16,12 +17,10 @@ function App() {
 </nav>
 
 <Switch>
-<Route exact path="/nav-wrapper">
+<Route path="/nav-wrapper">
 	<NavWrapper/>
 	</Route>
-<Route exact path="/sub-nav">
-	<SubNav />
-	</Route>
+ 
 	</Switch> 
 
 
