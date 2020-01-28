@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* //My styles */
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  
+}
+
+.unorderedList {
+  border: 2px black solid;
+  border-radius: 3px;
+  background: #414345;
+
+
+}
+
+.unorderedList li {
+
+  list-style-type: none;
+  color: white;
+}
