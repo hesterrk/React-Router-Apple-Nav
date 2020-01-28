@@ -12,6 +12,49 @@ code {
     monospace;
 }
 
+/* //My styles for App.js */
+
+.headerandbutton {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.welcomeheader {
+  display: flex;
+  justify-content: center;
+
+}
+
+.navWrapper {
+  display: flex;
+  flex-direction: center;
+  width: 65%;
+}
+
+
+
+.homebuttonFlex {
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+
+
+.homebutton {
+ border-radius: 10px;
+  height: 60%;
+  background: #414345;
+  margin-left: 20px;
+  color: white;
+
+}
+
+
 
 /* //My styles for navwrapper */
 
@@ -25,7 +68,7 @@ ul {
 }
 
 .unorderedList {
-  border: 2px black solid;
+  border: 1px black solid;
   border-radius: 3px;
   background: #414345;
 
@@ -47,4 +90,13 @@ ul {
   background: #414345;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
+
+.navlink {
+  text-decoration: none;
+  color: white;
+}
+

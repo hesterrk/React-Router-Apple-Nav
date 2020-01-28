@@ -13,8 +13,8 @@ function SubNav() {
 <div>
     
             <nav className='subNavNav'>
-            <NavLink to={`${url}/macbook`}  > MacBook </NavLink>
-             <NavLink to={`${url}/macbookair`}  > MacBook Air </NavLink>
+            <NavLink to={`${url}/macbook`} className="navlink" > MacBook </NavLink>
+             <NavLink to={`${url}/macbookair`} className="navlink" > MacBook Air </NavLink>
          </nav>
 
 <Switch>

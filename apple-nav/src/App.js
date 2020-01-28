@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavLink, Route, Switch } from 'react-router-dom';
 import NavWrapper from "./components/NavWrapper";
-import SubNav from "./components/SubNav"
+import { Link }  from 'react-router-dom';
+
 
 import './App.css';
 
@@ -9,19 +9,19 @@ function App() {
 
   return (
     <div className="App">
-   <nav>
-     <NavLink exact to="/nav-wrapper" className="navWrapper">
-    <h1>Apple Navigation</h1>
-    </NavLink>
-
+      <div className="headerandbutton">
+   <nav className="navWrapper">
+    <h1 className="welcomeheader">Welcome to Apple </h1>
 </nav>
 
-<Switch>
-<Route path="/nav-wrapper">
-	<NavWrapper/>
-	</Route>
- 
-	</Switch> 
+<div className="homebuttonFlex">
+<Link to="./nav-wrapper"><button className="homebutton">
+				Home
+			</button> </Link>
+      </div>
+      </div>
+
+  <NavWrapper />
 
 
 
